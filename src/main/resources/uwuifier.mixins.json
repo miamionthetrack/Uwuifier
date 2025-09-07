@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "dev.miami.uwuifier.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "ClientPlayNetworkHandlerMixin"
+  ]
+}
